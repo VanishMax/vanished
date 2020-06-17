@@ -1,0 +1,14 @@
+body {
+  background-color: #eaebf1;
+  color: #424567;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.flex-center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
