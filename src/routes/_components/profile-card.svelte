@@ -25,10 +25,10 @@
   header {
     position: relative;
     border-radius: 50px;
-    background: linear-gradient(145deg, #dfe1ec, #f8f8f8);
-    box-shadow: 7px 7px 14px #c7c8cd, -7px -7px 14px #ffffff;
     width: 350px;
     padding: 100px 50px 40px;
+    background: linear-gradient(145deg, #dfe1ec, #f8f8f8);
+    box-shadow: 7px 7px 14px #c7c8cd, -7px -7px 14px #ffffff;
   }
 
   figure {
@@ -109,6 +109,7 @@
 
   @media screen and (min-width: 1024px) and (max-width: 1439px) {
     header {
+      min-width: 350px;
       margin-left: 20px;
     }
 
@@ -119,6 +120,7 @@
 
   @media screen and (min-width: 1440px) {
     header {
+      min-width: 350px;
       margin-left: 50px;
       width: 400px;
     }
