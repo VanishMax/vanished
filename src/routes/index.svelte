@@ -13,6 +13,7 @@
 	{#each articles as article, i (i)}
 		<Article {article} />
 	{/each}
+	<a href="/404"><span/></a>
 </Layout>
 
 <style>
