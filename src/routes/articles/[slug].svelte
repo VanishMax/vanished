@@ -3,7 +3,7 @@
   export async function preload(page) {
     const { slug } = page.params;
     const article = articles.find(article => article.slug === slug);
-    if (!article) this.error(404, 'Not found');
+    if (!article) this.redirect(302, '404');
     return { article };
   }
 </script>
