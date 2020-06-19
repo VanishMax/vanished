@@ -24,6 +24,7 @@
 <style>
   header {
     position: relative;
+    margin-top: 75px;
     border-radius: 30px;
     width: 350px;
     padding: 100px 50px 40px;

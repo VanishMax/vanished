@@ -27,6 +27,7 @@
 <section>
 	<ProfileCard />
 	<main>
+		<img src="/vanished.png" alt="vanished">
 		<h1>Blog posts</h1>
 		{#each articles as article, i (i)}
 			<Article {article} />
@@ -44,18 +45,29 @@
 	}
 
 	main {
-		margin: 0 20px;
+		margin: 15px 20px 0;
 		width: auto;
+	}
+
+	img {
+		display: none;
+		margin: auto;
+		width: 96px;
 	}
 
 	@media screen and (min-width: 1024px) {
 		section {
 			flex-direction: row;
+			margin-top: 0;
 		}
 
 		main {
-			margin: 0 50px;
+			margin: 15px 50px 0;
 			width: 100%;
+		}
+
+		img {
+			display: block;
 		}
 	}
 
