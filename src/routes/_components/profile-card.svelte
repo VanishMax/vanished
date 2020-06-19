@@ -24,7 +24,7 @@
 <style>
   header {
     position: relative;
-    border-radius: 50px;
+    border-radius: 30px;
     width: 350px;
     padding: 100px 50px 40px;
     background: linear-gradient(145deg, #dfe1ec, #f8f8f8);
