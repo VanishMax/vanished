@@ -10,7 +10,11 @@
 
 <script>
   import Head from '../_components/article-head.svelte';
+  import Content from '../_components/article-content.svelte';
   export let article;
+
+  const blocks = article && article.contents && article.contents.blocks;
+  if (!blocks) throw new Error('Add blocks content to the article');
 </script>
 
 <svelte:head>
@@ -37,6 +41,8 @@
 </a>
 
 <Head title={article.title} prev={article.prev} next={article.next} />
+
+<Content {blocks} />
 
 <style>
   a {
