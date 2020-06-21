@@ -28,10 +28,6 @@
     margin-top: 30px;
   }
 
-  h1 {
-    max-width: 60%;
-  }
-
   .prev, .next {
     display: none;
     text-align: center;
