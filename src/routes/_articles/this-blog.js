@@ -1,12 +1,12 @@
 const ThisBlog = {
-  slug: 'this-blog',
-  title: 'This blog',
-  cover: 'this-blog.jpg',
+  slug: 'another-blog',
+  title: 'Another blog?!',
+  cover: 'another-blog.jpg',
   date: 'June 20, 2020',
   lead: 'Decision behind personal blog and technologies used',
   keywords: 'blog, sapper, svelte, javascript',
-  next: {slug: 'lolka', title: 'Поиграем в наши долгие названия длинных статей?'},
-  prev: {slug: 'ввл', title: 'Поиграем в наши долгие названия длинных статей?'},
+  next: {slug: '', title: ''},
+  prev: {slug: '', title: ''},
   contents: {
     "time" : 1592662887214,
     "blocks" : [
@@ -85,6 +85,10 @@ const ThisBlog = {
         "data" : {
           "text" : "Ok, sorry for stepping away from the main topic for a moment."
         }
+      },
+      {
+        "type" : "delimiter",
+        "data" : {}
       },
       {
         "type" : "paragraph",
