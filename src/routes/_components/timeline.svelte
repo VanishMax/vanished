@@ -3,37 +3,46 @@
     {
       title: 'Stride',
       link: 'https://stride.one',
-      timing: 'Since June 2019',
+      timing: 'Since June 2019. Kazan, Russia',
       img: 'stride.svg',
       description: [
-        '<b>Mek</b> is a super power of myself',
-        'I can also do this: <a href="https://github.com" target="_blank">GitHub link, huh?</a>'
+        'Finished several projects for <b>industrial customers</b> from scratch',
+        'Applied modern technologies on every project such as <b>SSR</b> for public websites or <b>TypeScript</b> for difficult applications',
+        'Contributed to <b>Open-Source</b> in order to solve job\'s tasks',
+        'Performed <b>unit</b> and <b>end-to-end test</b> to insure reliability',
+        'Was a mentor for new interns and performed <b>code-review</b>',
+        'Wrote technical documentation for all web applications',
+        'Communicated with project team up to customers to ensure the understanding of business requirements',
       ],
     },
     {
       title: 'Eratart development',
       link: 'https://eratart.com/',
-      timing: 'Dec 2018 — March 2019',
+      timing: 'Dec 2018 — March 2019. Russia',
       img: 'eratart.png',
       description: [
-        '<b>Mek</b> is a super power of myself',
-        'I can also do this: <a href="https://github.com" target="_blank">GitHub link, huh?</a>'
+        'Built <b>REST API with Node.js</b>',
+        'Integrated Google services into the project',
+        'Created an interface of the admin\'s panel of the project with <b>React</b>'
       ],
     },
   ];
 </script>
 
 <section>
-  {#each timeline as item}
+  {#each timeline as item, i}
     <div>
       <a href={item.link} target="_blank">
         <img src={'/cv/' + item.img} alt="company logo">
       </a>
       <h2>{item.title}</h2>
       <p class="subtitle">{item.timing}</p>
-      {#each item.description as text}
-        <p>{@html text}</p>
-      {/each}
+      <p><u>Achievements</u></p>
+      <ul>
+        {#each item.description as text}
+          <li>{@html text}</li>
+        {/each}
+      </ul>
     </div>
   {/each}
 </section>
@@ -46,10 +55,20 @@
   h2 {
     margin-bottom: 0;
   }
+
   .subtitle {
     color: #63689c;
     font-size: 0.9rem;
     margin-top: 0;
+  }
+
+  ul {
+    margin: 0;
+    padding: 0;
+  }
+
+  ul li {
+    margin-top: 10px;
   }
 
   div {
@@ -97,6 +116,7 @@
       padding-right: 2.75rem;
       padding-left: 0;
       text-align: right;
+      direction: rtl;
     }
 
     div:nth-child(2n+1):before {
