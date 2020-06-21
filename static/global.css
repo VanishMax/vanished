@@ -2,6 +2,7 @@ body {
   background-color: #eaebf1;
   color: #424567;
   font-family: 'Montserrat', sans-serif;
+  overflow-x: hidden;
 }
 
 document, window, body {
