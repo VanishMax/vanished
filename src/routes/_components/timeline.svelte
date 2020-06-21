@@ -6,11 +6,11 @@
       timing: 'Since June 2019. Kazan, Russia',
       img: 'stride.svg',
       description: [
-        'Finished several projects for <b>industrial customers</b> from scratch',
-        'Applied modern technologies on every project such as <b>SSR</b> for public websites or <b>TypeScript</b> for difficult applications',
-        'Contributed to <b>Open-Source</b> in order to solve job\'s tasks',
-        'Performed <b>unit</b> and <b>end-to-end test</b> to insure reliability',
-        'Was a mentor for new interns and performed <b>code-review</b>',
+        'Finished several projects for <strong>industrial customers</strong> from scratch',
+        'Applied modern technologies on every project such as <strong>SSR</strong> for public websites or <strong>TypeScript</strong> for difficult applications',
+        'Contributed to <strong>Open-Source</strong> in order to solve job\'s tasks',
+        'Performed <strong>unit</strong> and <strong>end-to-end test</strong> to insure reliability',
+        'Was a mentor for new interns and performed <strong>code-review</strong>',
         'Wrote technical documentation for all web applications',
         'Communicated with project team up to customers to ensure the understanding of business requirements',
       ],
@@ -21,9 +21,9 @@
       timing: 'Dec 2018 — March 2019. Russia',
       img: 'eratart.png',
       description: [
-        'Built <b>REST API with Node.js</b>',
+        'Built <strong>REST API with Node.js</strong>',
         'Integrated Google services into the project',
-        'Created an interface of the admin\'s panel of the project with <b>React</b>'
+        'Created an interface of the admin\'s panel of the project with <strong>React</strong>'
       ],
     },
   ];

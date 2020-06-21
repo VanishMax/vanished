@@ -77,6 +77,11 @@
     margin-left: 8px;
   }
 
+  p, li {
+    line-height: 1.6;
+    text-align: justify;
+  }
+
   ul {
     padding-left: 20px;
   }
@@ -93,6 +98,14 @@
     section > div {
       width: 48%;
       margin-right: 2%;
+    }
+
+    p, li {
+      width: 70%;
+    }
+
+    section p {
+      width: 100%;
     }
   }
 </style>

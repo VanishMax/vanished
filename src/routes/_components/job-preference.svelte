@@ -2,7 +2,7 @@
 
 <p>Looking for a remote job as a <strong>Front-end engineer</strong> without relocation</p>
 
-<div>Preferable stack: Vue, Svelte or Vanilla TypeScript</div>
+<p>Preferable stack: Vue, Svelte or Vanilla TypeScript</p>
 
 <style>
   .danger {
@@ -13,5 +13,9 @@
     border-radius: 5px;
     letter-spacing: .4px;
     background: rgba(250, 239, 240, 0.78);
+  }
+
+  p {
+    line-height: 1.6;
   }
 </style>
