@@ -22,7 +22,9 @@
 </svelte:head>
 
 <section>
-  <ProfileCard {isCV} />
+  <div>
+    <ProfileCard {isCV} />
+  </div>
   <main>
     <a href="/">
       <img src="/vanished.png" alt="vanished">

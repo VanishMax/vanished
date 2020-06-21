@@ -131,7 +131,7 @@
     header {
       min-width: 350px;
       margin-left: 50px;
-      width: 400px;
+      width: 350px;
     }
   }
 </style>

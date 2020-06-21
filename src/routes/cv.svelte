@@ -1,5 +1,6 @@
 <script>
 	import Layout from './_components/layout.svelte';
+	import Timeline from './_components/timeline.svelte';
 </script>
 
 <svelte:head>
@@ -8,6 +9,7 @@
 
 <Layout isCV>
 	<h1>CV</h1>
+	<Timeline />
 </Layout>
 
 <style>
