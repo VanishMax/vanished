@@ -8,7 +8,7 @@
 </svelte:head>
 
 <Layout isCV>
-	<h1>CV</h1>
+	<h1>Curriculum vitae</h1>
 	<Timeline />
 </Layout>
 
