@@ -17,6 +17,9 @@
   ];
 </script>
 
+<h2>Open-Source projects</h2>
+<p>These are the projects that I have wrote by myself and put the biggest effort to realize ideas.</p>
+
 <section>
   {#each projects as project}
     <div>
@@ -29,6 +32,14 @@
     </div>
   {/each}
 </section>
+
+<p>Also, I wrote small web-applications in order to learn new technologies and improve my skills:</p>
+<ul>
+  <li>Participated in a University project <a href="https://github.com/Innopoints/frontend" target="_blank">Innopoints</a> from June 2019 till Jan 2020 with other students. All-university website was created with Sapper, SSR library for Svelte
+  <li>Created <a href="https://github.com/VanishMax/games-with-fullstack" target="_blank">small website</a> with Apline.js on the front-end and Python + SQLAlchemy on the back-end
+  <li>Created an <a href="https://github.com/VanishMax/serverless-gallery" target="_blank">image gallery</a> with Vanilla JS and serverless file uploading using Amazon S3
+  <li>Created the application for <a href="https://github.com/VanishMax/solving-de" target="_blank">solving differential equations</a> numerically and representing them with Chart.js
+</ul>
 
 <style>
   section {
@@ -47,7 +58,7 @@
     box-shadow: 7px 7px 14px #c7c8cd, -7px -7px 14px #ffffff;
   }
 
-  a {
+  section a {
     color: inherit;
     text-decoration: none;
   }
@@ -56,7 +67,7 @@
     margin-bottom: 0;
   }
 
-  a > span {
+  section a > span {
     display: inline-block;
     color: #63689c;
     font-size: 0.9rem;
@@ -64,6 +75,14 @@
 
   a > span:not(:nth-child(2)) {
     margin-left: 8px;
+  }
+
+  ul {
+    padding-left: 20px;
+  }
+
+  ul > li {
+    margin-top: 8px;
   }
 
   @media screen and (min-width: 1024px) {

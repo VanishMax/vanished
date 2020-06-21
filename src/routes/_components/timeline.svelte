@@ -29,6 +29,8 @@
   ];
 </script>
 
+<h2>Job experience</h2>
+
 <section>
   {#each timeline as item, i}
     <div>
@@ -52,7 +54,7 @@
     max-height: 40px;
   }
 
-  h2 {
+  section h2 {
     margin-bottom: 0;
   }
 
