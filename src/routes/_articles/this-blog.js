@@ -1,6 +1,6 @@
 const ThisBlog = {
-  slug: 'another-blog',
-  title: 'Another blog?!',
+  slug: 'yet-another-blog',
+  title: 'Yet another blog?!',
   cover: 'another-blog.jpg',
   date: 'June 20, 2020',
   lead: 'Decision behind personal blog and technologies used',
