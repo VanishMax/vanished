@@ -1,5 +1,6 @@
 <script>
   import ProfileCard from './profile-card.svelte';
+  export let isCV = false;
 </script>
 
 <svelte:head>
@@ -21,7 +22,7 @@
 </svelte:head>
 
 <section>
-  <ProfileCard />
+  <ProfileCard {isCV} />
   <main>
     <a href="/">
       <img src="/vanished.png" alt="vanished">

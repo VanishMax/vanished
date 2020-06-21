@@ -1,3 +1,7 @@
+<script>
+  export let isCV = false;
+</script>
+
 <header>
   <figure class="flex-center">
     <img src="/me.jpeg" alt="me">
@@ -6,7 +10,11 @@
   <h3>Max Korsunov</h3>
   <p>The lover of the new. Front-end developer with creative mind.</p>
 
-  <a href="/cv">See the CV</a>
+  {#if isCV}
+    <a href="/">See blog</a>
+  {:else}
+    <a href="/cv">See the CV</a>
+  {/if}
 
   <nav class="flex-center">
     <a class="flex-center" href="https://github.com/VanishMax" target="_blank" rel="noreferrer nofollow">
