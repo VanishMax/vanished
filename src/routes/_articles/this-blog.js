@@ -20,7 +20,7 @@ const ThisBlog = {
       {
         "type" : "paragraph",
         "data" : {
-          "text" : "Yet another blog by yet another programmer. It is true, there are many developers writing about their experience in the field of front-end dev. Just take a look at very well-known blogs by <a href=\"https://overreacted.io/\" target='_blank'>Dan Abramov</a> or <a href=\"https://www.swyx.io/\" target='_blank'>Shawn Wang</a>. They preserve their identity by creating personal websites instead of posting to Medium or Dev. Yes, these guys at least had some popularity at the time of blog creation, but I just feel like starting from scratch."
+          "text" : "Yet another blog by yet another programmer. It is true, many developers are writing about their experience in the field of a front-end dev. Just take a look at very well-known blogs by <a href=\"https://overreacted.io/\" target='_blank'>Dan Abramov</a> or <a href=\"https://www.swyx.io/\" target='_blank'>Shawn Wang</a>. They preserve their identity by creating personal websites instead of posting to Medium or Dev. Yes, these guys at least had some popularity at the time of blog creation, but I just feel like starting from scratch."
         }
       },
       {
@@ -77,7 +77,7 @@ const ThisBlog = {
       {
         "type" : "paragraph",
         "data" : {
-          "text" : "By the way, have you ever thought about how front-end devs love to talk about frameworks, libraries and other stuff? And how they can argue between choosing them? We don't brag about projects we take, only technologies. It might be sad, but can be easily spared for the next article."
+          "text" : "By the way, have you ever thought about how front-end devs love to talk about frameworks, libraries and other stuff? And how they can argue between choosing them? We don't brag about the projects we take, only technologies. It might be sad, but can be easily spared for the next article."
         }
       },
       {
@@ -123,13 +123,13 @@ const ThisBlog = {
       {
         "type" : "paragraph",
         "data" : {
-          "text" : "<b>Editor.js</b> is a web-editor from a dream. Well, there are quite many solutions like Medium editor or Draft.js, but they are either for React or just not easy enough. My options is also not without flaws: it does not support SSR, which is horribly bad for articles, but..! It is only if you decide to built and Editor into you website."
+          "text" : "<b>Editor.js</b> is a web-editor from a dream. Well, there are quite many solutions like Medium editor or Draft.js, but they are either for React or just not easy enough. My options are also not without flaws: it does not support SSR, which is horribly bad for articles, but..! It is only if you decide to built and Editor into your website."
         }
       },
       {
         "type" : "paragraph",
         "data" : {
-          "text" : "My need is just to write the text that I can later insert into the page. Previously, WYSIWYG editors with html-export were very popular, but times has changed the perspective for block-type ones. For example, the result of what I have written before is:"
+          "text" : "My need is just to write the text that I can later insert into the page. Previously, WYSIWYG editors with html-export were very popular, but times have changed the perspective for block-type ones. For example, the result of what I have written before is:"
         }
       },
       {
@@ -141,7 +141,7 @@ const ThisBlog = {
       {
         "type" : "paragraph",
         "data" : {
-          "text" : "What I do with that: copy to my <code class=\"inline-code\">some-article.js</code> file and&nbsp;iterate though all the blocks by creating some markup for which I later add some CSS and make it look good. So, SSR support is native."
+          "text" : "What I do with that: copy to my <code class=\"inline-code\">some-article.js</code> file and&nbsp;iterate through all the blocks by creating some markup for which I later add some CSS and make it look good. So, SSR support is native."
         }
       },
       {

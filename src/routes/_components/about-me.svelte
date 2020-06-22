@@ -2,14 +2,14 @@
 
 <section>
   <p>
-    I love front-end development with all my heart. Though, just development can happen to be boring,
+    I love front-end development with all my heart. Though just development can happen to be boring,
     that is why I try to contribute to open-source, create my own projects and keep on learning new things.
-    Every week I read articles and find new technologies to improve future programming experience, and
+    Every week I read articles and find new technologies to improve future programming experience and
     share findings with the world by Twitter.
   </p>
   <p>
-    On a job, I interfere into business processes to create the most realistic and understandable
-    requirements. The same is about design, I would rather participate in prototyping process
+    On a job, I interfere in business processes to create the most realistic and understandable
+    requirements. The same is about design, I would rather participate in the prototyping process
     than fix UX bugs on later stages. I believe that websites can be easy-to-use, multi-cultural and
     fully accessible for people around the world.
   </p>
