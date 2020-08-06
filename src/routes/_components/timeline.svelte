@@ -9,7 +9,7 @@
         'Finished several projects for <strong>industrial customers</strong> from scratch',
         'Applied modern technologies on every project such as <strong>SSR</strong> for public websites or <strong>TypeScript</strong> for difficult applications',
         'Contributed to <strong>Open-Source</strong> in order to solve the job\'s tasks',
-        'Performed <strong>unit</strong> and <strong>end-to-end test</strong> to ensure reliability',
+        'Performed <strong>unit</strong> and <strong>end-to-end tests</strong> to ensure reliability',
         'Was a mentor for new interns and performed <strong>code-review</strong>',
         'Wrote technical documentation for all web applications',
         'Communicated with project team up to customers to ensure the understanding of business requirements',
@@ -23,7 +23,7 @@
       description: [
         'Built <strong>REST API with Node.js</strong>',
         'Integrated Google services into the project',
-        'Created an interface of the admin\'s panel of the project with <strong>React</strong>'
+        'Created an interface of the admin\'s dashboard of the project with <strong>React</strong>'
       ],
     },
   ];

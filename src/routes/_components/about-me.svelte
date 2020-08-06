@@ -3,9 +3,9 @@
 <section>
   <p>
     I love front-end development with all my heart. Though just development can happen to be boring,
-    that is why I try to contribute to open-source, create my own projects and keep on learning new things.
+    I try to contribute to open-source, create my own projects and keep on learning new things.
     Every week I read articles and find new technologies to improve future programming experience and
-    share findings with the world by Twitter.
+    share findings with the world by Twitter and blog posts.
   </p>
   <p>
     On a job, I interfere in business processes to create the most realistic and understandable
@@ -15,7 +15,7 @@
   </p>
   <p>
     Establishing unit and end-to-end testing along with TypeScript typization on a daily basis, I ensure
-    that everything works as it should. But at the same time, I respect deadlines and try not to break
+    that everything works as it should. But at the same time, I respect deadlines and try not to break them
     by doing my best.
   </p>
 </section>

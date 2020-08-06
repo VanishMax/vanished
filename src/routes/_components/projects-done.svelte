@@ -18,7 +18,7 @@
 </script>
 
 <h2>Open-Source projects</h2>
-<p>These are the projects that I have wrote by myself and put the biggest effort to realize ideas.</p>
+<p>These are the projects that I have created and put the biggest effort to make ideas come true.</p>
 
 <section>
   {#each projects as project}
