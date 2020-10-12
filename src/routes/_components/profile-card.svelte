@@ -4,7 +4,7 @@
 
 <header>
   <figure class="flex-center">
-    <img src="/me.jpeg" alt="me">
+    <img src="/me.jpg" alt="me">
   </figure>
 
   <h3>Max Korsunov</h3>
