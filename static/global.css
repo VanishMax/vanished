@@ -34,6 +34,7 @@ document, window, body {
   color: #424567;
   padding: 8px 15px;
   border-radius: 9px;
+  border: none;
   box-shadow: 2px 2px 5px #c7c8cd, -3px -3px 6px #fff;
   transition: box-shadow .2s;
 }
