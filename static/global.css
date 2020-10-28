@@ -23,3 +23,26 @@ document, window, body {
 .pointer {
   cursor: pointer;
 }
+
+.btn-link {
+  display: inline-block;
+  margin-top: 10px;
+  margin-bottom: 30px;
+  width: auto;
+  text-decoration: none;
+  background-color: #e9eaf2;
+  color: #424567;
+  padding: 8px 15px;
+  border-radius: 9px;
+  box-shadow: 2px 2px 5px #c7c8cd, -3px -3px 6px #fff;
+  transition: box-shadow .2s;
+}
+
+.btn-link:hover {
+  box-shadow: 2px 3px 5px 2px #c7c8cd, -3px -3px 6px 2px #fff;
+  transition: box-shadow .2s;
+}
+
+.btn-link:active {
+  box-shadow: inset 2px 2px 5px #c7c8cd, inset -3px -3px 6px #ffffff;
+}

@@ -1,11 +1,12 @@
 <script>
   export let title;
+  export let isCreate = false;
   export let prev = {slug: '', title: ''};
   export let next = {slug: '', title: ''};
 </script>
 
 <header>
-  {#if prev.slug}
+  {#if prev.slug && !isCreate}
     <a href={'/articles/' + prev.slug} class="prev" title={prev.title}>
       Prev:<br>{prev.title}
     </a>
@@ -13,7 +14,7 @@
 
   <h1>{title}</h1>
 
-  {#if next.slug}
+  {#if next.slug && !isCreate}
     <a href={'/articles/' + next.slug} class="next" title={next.title}>
       Next:<br>{next.title}
     </a>

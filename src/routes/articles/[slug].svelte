@@ -10,6 +10,7 @@
 
 <script>
   import Head from '../_components/article-head.svelte';
+  import LinkToHome from '../_components/link-to-home.svelte';
   import Content from '../_components/article-content.svelte';
   export let article;
 
@@ -36,21 +37,8 @@
   <meta name="twitter:image" content={'https://vanishmax.com/articles-img/' + article.cover}>
 </svelte:head>
 
-<a href="/">
-  <img src="/vanished.png" alt="vanished">
-</a>
+<LinkToHome />
 
 <Head title={article.title} prev={article.prev} next={article.next} />
 
 <Content {blocks} />
-
-<style>
-  a {
-    margin: 15px auto;
-  }
-
-  a, img {
-    display: block;
-    width: 96px;
-  }
-</style>

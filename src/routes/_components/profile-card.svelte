@@ -12,9 +12,9 @@
   <p>The lover of the new. Front-end developer with creative mind.</p>
 
   {#if isCV}
-    <a href="/">See blog</a>
+    <a href="/" class="btn-link">See blog</a>
   {:else}
-    <a href="/cv">See the CV</a>
+    <a href="/cv" class="btn-link">See the CV</a>
   {/if}
 
   <nav class="flex-center">
@@ -75,29 +75,6 @@
 
   p {
     line-height: 20px;
-  }
-
-  header > a {
-    display: inline-block;
-    margin-top: 10px;
-    margin-bottom: 30px;
-    width: auto;
-    text-decoration: none;
-    background-color: #e9eaf2;
-    color: #424567;
-    padding: 8px 15px;
-    border-radius: 9px;
-    box-shadow: 2px 2px 5px #c7c8cd, -3px -3px 6px #fff;
-    transition: box-shadow .2s;
-  }
-
-  header > a:hover {
-    box-shadow: 2px 3px 5px 2px #c7c8cd, -3px -3px 6px 2px #fff;
-    transition: box-shadow .2s;
-  }
-
-  header > a:active {
-    box-shadow: inset 2px 2px 5px #c7c8cd, inset -3px -3px 6px #ffffff;
   }
 
   nav {
