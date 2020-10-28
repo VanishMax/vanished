@@ -9,26 +9,33 @@
 </svelte:head>
 
 <Layout>
-	<h1>Blog posts</h1>
+	<nav>
+		<h1>Blog posts</h1>
+		<a href="/create" class="btn-link">
+			Write new article
+		</a>
+	</nav>
 
 	{#each articles as article, i (i)}
 		<Article {article} />
 	{/each}
-
-	<a href="/create" class="btn-link">
-		Write new article
-	</a>
 
 	<!-- Live a link to /404 just for Sapper to see it in the build -->
 	<a href="/404"><span/></a>
 </Layout>
 
 <style>
+	nav {
+		display: flex;
+		justify-content: space-between;
+		align-items: center;
+	}
+
 	h1 {
 		font-size: 32px;
 	}
 
 	.btn-link {
-		margin: auto;
+		margin: 0;
 	}
 </style>
