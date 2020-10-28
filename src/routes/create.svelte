@@ -6,14 +6,29 @@
 
   let editor = null;
   onMount(async () => {
-    const editorjs = await import ('@editorjs/editorjs');
-    const EditorJS = editorjs.default;
+    const EditorJS = (await import ('@editorjs/editorjs')).default;
+    const Header = (await import ('@editorjs/header')).default;
+    const Checklist = (await import ('@editorjs/checklist')).default;
+    const SimpleImage = (await import ('@editorjs/simple-image')).default;
+    const Delimiter = (await import ('@editorjs/delimiter')).default;
+    const Code = (await import ('@editorjs/code')).default;
+    const List = (await import ('@editorjs/list')).default;
+    const Quote = (await import ('@editorjs/quote')).default;
 
     editor = new EditorJS({
       holder: 'editor',
       data: {},
       autofocus: true,
       placeholder: 'The story begins here!',
+      tools: {
+        header: Header,
+        list: List,
+        image: SimpleImage,
+        code: Code,
+        quote: Quote,
+        checklist: Checklist,
+        delimiter: Delimiter,
+      }
     });
 
     window.addEventListener('paste', (event) => {

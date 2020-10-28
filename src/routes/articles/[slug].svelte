@@ -14,8 +14,10 @@
   import Content from '../_components/article-content.svelte';
   export let article;
 
-  const blocks = article && article.contents && article.contents.blocks;
-  if (!blocks) throw new Error('Add blocks content to the article');
+  const parsed = article && article.contents ? JSON.parse(article.contents) : null;
+  if (!parsed || !parsed.blocks) throw new Error('An article must have a JSON string as its contents!');
+
+  const blocks = parsed.blocks;
 </script>
 
 <svelte:head>
