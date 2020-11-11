@@ -35,10 +35,11 @@
 
 <p>Also, I wrote small web-applications in order to learn new technologies and improve my skills:</p>
 <ul>
-  <li>Participated in a University project <a href="https://github.com/Innopoints/frontend" target="_blank">Innopoints</a> from June 2019 till Jan 2020 with other students. All-university website was created with Sapper, SSR library for Svelte
-  <li>Created a <a href="https://github.com/VanishMax/games-with-fullstack" target="_blank">small website</a> with Apline.js on the front-end and Python + SQLAlchemy on the back-end
-  <li>Created an <a href="https://github.com/VanishMax/serverless-gallery" target="_blank">image gallery</a> with Vanilla JS and serverless file uploading using Amazon S3
-  <li>Created the application for <a href="https://github.com/VanishMax/solving-de" target="_blank">solving differential equations</a> numerically and representing them with Chart.js
+  <li>Nov 2020. Simple <a href="https://github.com/VanishMax/pizza-shop" target="_blank">"Pizza delivery service"</a>: a React app with authorization provided by serverless Node.js backend</li>
+  <li>June 2019 – Jan 2020. Participated in a University project <a href="https://github.com/Innopoints/frontend" target="_blank">Innopoints</a> with other students. All-university website was created with Sapper, SSR library for Svelte
+  <li>May 2020. Created a <a href="https://github.com/VanishMax/games-with-fullstack" target="_blank">small website</a> with Apline.js on the front-end and Express.js + MongoDB on the back-end
+  <li>Nov 2019. Created the application for <a href="https://github.com/VanishMax/solving-de" target="_blank">solving differential equations</a> numerically and representing them with Chart.js
+  <li>Apr 2019. Created an <a href="https://github.com/VanishMax/serverless-gallery" target="_blank">image gallery</a> with Vanilla JS and serverless file uploading using Amazon S3
 </ul>
 
 <style>
@@ -91,16 +92,7 @@
   }
 
   @media screen and (min-width: 1024px) {
-    section {
-      flex-direction: row;
-    }
-
-    section > div {
-      width: 48%;
-      margin-right: 2%;
-    }
-
-    p, li {
+    section, p, li {
       width: 70%;
     }
 

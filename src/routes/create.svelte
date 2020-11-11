@@ -4,6 +4,7 @@
 
   import { onMount } from 'svelte';
 
+  let loading = true;
   let editor = null;
   onMount(async () => {
     const EditorJS = (await import ('@editorjs/editorjs')).default;
@@ -23,12 +24,21 @@
       tools: {
         header: Header,
         list: List,
-        image: SimpleImage,
         code: Code,
         quote: Quote,
         checklist: Checklist,
         delimiter: Delimiter,
-      }
+        image: {
+          class: SimpleImage,
+          inlineToolbar: true,
+          config: {
+            placeholder: 'Paste image URL'
+          }
+        },
+      },
+      onReady: () => {
+        loading = false;
+      },
     });
 
     window.addEventListener('paste', (event) => {
@@ -60,6 +70,12 @@
 
 <Head title="Some article name" />
 
+{#if loading}
+<p>
+  The Editor is loading. Please, wait...
+</p>
+{/if}
+
 <article id="editor"></article>
 
 <button type="button" class="btn-link" class:saved on:click={save}>
@@ -70,6 +86,10 @@
   article {
     width: 90%;
     margin: auto;
+  }
+
+  p {
+    text-align: center;
   }
 
   button {
