@@ -1,9 +1,18 @@
 <script>
   const timeline = [
     {
+      title: 'Code Pilots',
+      link: 'https://code-pilots.ru/',
+      timing: 'Since November 2020. St. Petersburg, Russia',
+      img: 'codepilots.svg',
+      description: [
+        'Working on different <strong>high-load</strong> projects',
+      ],
+    },
+    {
       title: 'Stride',
       link: 'https://stride.one',
-      timing: 'Since June 2019. Kazan, Russia',
+      timing: 'Jun 2019 – November 2020. Kazan, Russia',
       img: 'stride.svg',
       description: [
         'Finished several projects for <strong>industrial customers</strong> from scratch',
@@ -29,7 +38,7 @@
   ];
 </script>
 
-<h2>Job experience</h2>
+<h2 class="experience">Job experience <small>over 2 years</small></h2>
 
 <section>
   {#each timeline as item, i}
@@ -52,6 +61,17 @@
 <style>
   img {
     max-height: 40px;
+  }
+
+  .experience {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 2rem;
+  }
+
+  .experience > small {
+    font-size: 1rem;
   }
 
   section h2 {
@@ -108,6 +128,10 @@
   }
 
   @media screen and (min-width: 1024px) {
+    .experience {
+      width: 70%;
+    }
+
     div {
       width: 50%;
       margin-left: 50%;
