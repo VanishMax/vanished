@@ -6,7 +6,10 @@
       timing: 'Since November 2020. St. Petersburg, Russia',
       img: 'codepilots.svg',
       description: [
-        'Working on different <strong>high-load</strong> projects',
+        'Developed several high-load projects',
+        'Created a tool to optimize admin dashboard creation',
+        'Developed the starter code template for all future projects',
+        'Acted as an interviewer and mentor for newcomers',
       ],
     },
     {

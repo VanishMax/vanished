@@ -1,10 +1,17 @@
 <script>
   const projects = [
     {
+      title: 'Magner',
+      link: 'https://github.com/code-pilots/magner',
+      description: 'Model-driven universal admin panel magnetic to any backend',
+      timing: 'Since May 2021',
+      stars: '10+',
+    },
+    {
       title: 'Industrial-ui',
       link: 'https://github.com/industrial-ui',
       description: 'Production-oriented styleless, pure functional UI components. The set of libraries for Vue and Svelte frameworks.',
-      timing: 'Since Feb 2020',
+      timing: 'Feb-Nov 2020',
       stars: null,
     },
     {
@@ -35,6 +42,7 @@
 
 <p>Also, I wrote small web-applications in order to learn new technologies and improve my skills:</p>
 <ul>
+  <li>May 2021. <a href="https://github.com/IU-MAP/project-les-frais" target="_blank">"Les Frais" project</a>: a Vue 3 app to keep track of expenses.
   <li>Nov 2020. Simple <a href="https://github.com/VanishMax/pizza-shop" target="_blank">"Pizza delivery service"</a>: a React app with authorization provided by serverless Node.js backend.
   <li>Sep 2020. <a href="https://gitlab.com/GneyHabub/ds_project2" target="_blank">Distributed File System</a> as a University project. Node.js + TypeScript application for managing a nameserver, file servers and clients with no single point of failure.
   <li>June 2019 – Jan 2020. Participated in a University project <a href="https://github.com/Innopoints/frontend" target="_blank">Innopoints</a> with other students. All-university website was created with Sapper, SSR library for Svelte.

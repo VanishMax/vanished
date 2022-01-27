@@ -5,7 +5,7 @@
     'React.js',
     'Svelte',
     'Node.js',
-    'Unit tests',
+    'E2E tests',
   ];
 </script>
 
