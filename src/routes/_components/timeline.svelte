@@ -41,7 +41,7 @@
   ];
 </script>
 
-<h2 class="experience">Job experience <small>over 2 years</small></h2>
+<h2 class="experience">Job experience <small>over 3 years</small></h2>
 
 <section>
   {#each timeline as item, i}
