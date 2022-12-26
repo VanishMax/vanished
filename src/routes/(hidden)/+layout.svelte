@@ -1,6 +1,8 @@
-<script>
-  import ProfileCard from './profile-card.svelte';
-  export let isCV = false;
+<script lang="ts">
+  import '@fontsource/montserrat/latin-400.css';
+  import '@fontsource/montserrat/latin-400-italic.css';
+  import '@fontsource/montserrat/latin-500.css';
+  import '../styles.css';
 </script>
 
 <svelte:head>
@@ -21,18 +23,7 @@
   <meta name="twitter:image" content="https://vanishmax.com/me.jpeg">
 </svelte:head>
 
-<section>
-  <div>
-    <ProfileCard {isCV} />
-  </div>
-  <main>
-    <a href="/">
-      <img src="/vanished.png" alt="vanished">
-    </a>
-    <slot />
-  </main>
-</section>
-
+<slot />
 
 <style>
   section {

@@ -1,22 +1,13 @@
-<script context="module">
-  import articles from '../_articles/all';
-  export async function preload(page) {
-    const { slug } = page.params;
-    const article = articles.find(article => article.slug === slug);
-    if (!article) this.redirect(302, '404');
-    return { article };
-  }
-</script>
-
 <script>
-  import Head from '../_components/article-head.svelte';
-  import LinkToHome from '../_components/link-to-home.svelte';
-  import Content from '../_components/article-content.svelte';
-  export let article;
+  import Head from '$lib/components/article-head.svelte';
+  import LinkToHome from '$lib/components/link-to-home.svelte';
+  import Content from '$lib/components/article-content.svelte';
+
+  export let data;
+  const article = data.article;
 
   const parsed = article && article.contents ? JSON.parse(article.contents) : null;
   if (!parsed || !parsed.blocks) throw new Error('An article must have a JSON string as its contents!');
-
   const blocks = parsed.blocks;
 </script>
 

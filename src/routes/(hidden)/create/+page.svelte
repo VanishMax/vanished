@@ -1,9 +1,8 @@
 <script>
-  import Head from './_components/article-head.svelte';
-  import LinkToHome from './_components/link-to-home.svelte';
+  import Head from '$lib/components/article-head.svelte';
+  import LinkToHome from '$lib/components/link-to-home.svelte';
 
   import { onMount } from 'svelte';
-
   let loading = true;
   let editor = null;
   onMount(async () => {
@@ -15,7 +14,6 @@
     const Code = (await import ('@editorjs/code')).default;
     const List = (await import ('@editorjs/list')).default;
     const Quote = (await import ('@editorjs/quote')).default;
-
     editor = new EditorJS({
       holder: 'editor',
       data: {},
@@ -40,7 +38,6 @@
         loading = false;
       },
     });
-
     window.addEventListener('paste', (event) => {
       const textFromPaste = event.clipboardData.getData('text/plain');
       try {
@@ -52,7 +49,6 @@
       }
     });
   });
-
   let saved = null;
   const save = () => {
     editor.save().then((data) => {
@@ -71,9 +67,9 @@
 <Head title="Some article name" />
 
 {#if loading}
-<p>
-  The Editor is loading. Please, wait...
-</p>
+  <p>
+    The Editor is loading. Please, wait...
+  </p>
 {/if}
 
 <article id="editor"></article>
@@ -87,11 +83,9 @@
     width: 90%;
     margin: auto;
   }
-
   p {
     text-align: center;
   }
-
   button {
     position: fixed;
     bottom: 15px;
@@ -105,16 +99,13 @@
     text-transform: uppercase;
     transition: background-color 200ms;
   }
-
   button:focus {
     outline: none;
   }
-
   button.saved {
     background-color: #e0e0eb;
     transition: background-color 200ms;
   }
-
   @media screen and (min-width: 1024px) {
     article {
       width: 60%;
