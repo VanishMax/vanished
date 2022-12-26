@@ -19,6 +19,7 @@
 		"@editorjs/simple-image": "^1.5.1",
 		"@fontsource/montserrat": "^4.5.13",
 		"@sveltejs/adapter-auto": "^1.0.0",
+		"@sveltejs/adapter-vercel": "^1.0.0",
 		"@sveltejs/kit": "^1.0.0",
 		"svelte": "^3.54.0",
 		"svelte-check": "^2.9.2",
