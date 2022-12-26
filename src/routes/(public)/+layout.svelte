@@ -7,7 +7,7 @@
   import '@fontsource/montserrat/latin-500.css';
   import '../styles.css';
 
-  $: isCV = $page.route.id === '/cv';
+  $: isCV = $page.route.id === '/(public)/cv';
 </script>
 
 <svelte:head>
@@ -33,7 +33,7 @@
     <ProfileCard {isCV} />
   </div>
   <main>
-    <a href="/static">
+    <a href="/">
       <img src="/vanished.png" alt="vanished">
     </a>
     <slot />

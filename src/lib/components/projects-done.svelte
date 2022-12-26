@@ -1,18 +1,18 @@
 <script>
   const projects = [
     {
+      title: 'Vanilla JSX',
+      link: 'https://github.com/VanishMax/vanilla-jsx',
+      description: 'Proof-of-concept for using JSX in vanilla JavaScript apps, with articles explaining the idea',
+      timing: 'Apr 2022',
+      stars: '5+',
+    },
+    {
       title: 'Magner',
       link: 'https://github.com/code-pilots/magner',
       description: 'Model-driven universal admin panel magnetic to any backend',
       timing: 'Since May 2021',
       stars: '10+',
-    },
-    {
-      title: 'Industrial-ui',
-      link: 'https://github.com/industrial-ui',
-      description: 'Production-oriented styleless, pure functional UI components. The set of libraries for Vue and Svelte frameworks.',
-      timing: 'Feb-Nov 2020',
-      stars: null,
     },
     {
       title: 'Modern Web App',

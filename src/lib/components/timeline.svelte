@@ -1,9 +1,18 @@
 <script>
   const timeline = [
     {
+      title: 'Inita',
+      link: 'https://inita.com/',
+      timing: 'Since October 2022. Luxembourg',
+      img: 'inita.svg',
+      description: [
+        'Developing high-quality product and moving the startup forward',
+      ],
+    },
+    {
       title: 'Code Pilots',
-      link: 'https://code-pilots.ru/',
-      timing: 'Since November 2020. St. Petersburg, Russia',
+      link: 'https://code-pilots.com/',
+      timing: 'Nov 2020 – Oct 2020. Almaty, Kazakhstan',
       img: 'codepilots.svg',
       description: [
         'Developed several high-load projects',
@@ -13,10 +22,10 @@
       ],
     },
     {
-      title: 'Stride',
-      link: 'https://stride.one',
-      timing: 'Jun 2019 – November 2020. Kazan, Russia',
-      img: 'stride.svg',
+      title: 'Fixtender',
+      link: 'https://fixtender.com',
+      timing: 'Jun 2019 – Nov 2020. Riga, Latvia',
+      img: 'fixtender.svg',
       description: [
         'Finished several projects for <strong>industrial customers</strong> from scratch',
         'Applied modern technologies on every project such as <strong>SSR</strong> for public websites or <strong>TypeScript</strong> for difficult applications',
@@ -30,7 +39,7 @@
     {
       title: 'Eratart development',
       link: 'https://eratart.com/',
-      timing: 'Dec 2018 — March 2019. Russia',
+      timing: 'Dec 2018 — March 2019',
       img: 'eratart.png',
       description: [
         'Built <strong>REST API with Node.js</strong>',
@@ -41,12 +50,12 @@
   ];
 </script>
 
-<h2 class="experience">Job experience <small>over 3 years</small></h2>
+<h2 class="experience">Job experience <small>over 4 years</small></h2>
 
 <section>
   {#each timeline as item, i}
     <div>
-      <a href={item.link} target="_blank">
+      <a href={item.link} target="_blank" aria-labelledby={item.title}>
         <img src={'/cv/' + item.img} alt="company logo">
       </a>
       <h2>{item.title}</h2>

@@ -3,7 +3,7 @@
 </svelte:head>
 
 <h1>Page not found</h1>
-<p>Try going back to <a href="/static">home page</a></p>
+<p>Try going back to <a href="/">home page</a></p>
 
 <style>
   h1 {

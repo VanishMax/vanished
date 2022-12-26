@@ -8,8 +8,8 @@
   </figure>
 
   <h3>Max Korsunov</h3>
-  <span>Innopolis, Russia</span>
-  <p>The lover of the new. Front-end developer with creative mind.</p>
+  <span>Bali, Indonesia</span>
+  <p>The lover of the new. Front-end engineer with creative mind.</p>
 
   {#if isCV}
     <a href="/" class="btn-link">See blog</a>
@@ -18,7 +18,7 @@
   {/if}
 
   <nav class="flex-center">
-    <a class="flex-center" href="mailto:vanishmax2018@gmail.com" target="_blank" rel="noreferrer nofollow">
+    <a class="flex-center" href="mailto:max@vanishmax.com" target="_blank" rel="noreferrer nofollow">
       <img src="/mail.png" alt="Email icon">
     </a>
     <a class="flex-center" href="https://github.com/VanishMax" target="_blank" rel="noreferrer nofollow">

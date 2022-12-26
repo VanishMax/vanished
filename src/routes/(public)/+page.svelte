@@ -35,4 +35,8 @@
   .btn-link {
     margin: 0;
   }
+
+  a {
+    visibility: hidden;
+  }
 </style>

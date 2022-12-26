@@ -1,8 +1,8 @@
 <script>
   const TECHNOLOGIES = [
     'TypeScript',
-    'Vue.js',
     'React.js',
+    'Vue.js',
     'Svelte',
     'Node.js',
     'E2E tests',
@@ -10,8 +10,6 @@
 </script>
 
 <p class="danger">Currently not interested in job opportunities</p>
-
-<p>Looking for a remote job as a <strong>Front-end engineer</strong> without relocation</p>
 
 <p>Technologies I am good at:</p>
 <ul>
