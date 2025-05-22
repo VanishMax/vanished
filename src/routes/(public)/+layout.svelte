@@ -15,12 +15,12 @@
   <meta property="og:url" content="https://vanishmax.com/">
   <meta property="og:title" content="Max Korsunov's personal blog">
   <meta property="og:description" content="The lover of the new. Here are my articles on front-end development topics.">
-  <meta property="og:image" content="https://vanishmax.com/me.jpeg">
+  <meta property="og:image" content="https://vanishmax.com/me1.jpg">
 
   <meta name="twitter:card" content="summary">
   <meta name="twitter:title" content="Max Korsunov's personal blog">
   <meta name="twitter:description" content="The lover of the new. Here are my articles on front-end development topics.">
-  <meta name="twitter:image" content="https://vanishmax.com/me.jpeg">
+  <meta name="twitter:image" content="https://vanishmax.com/me1.jpg">
 </svelte:head>
 
 <main>
