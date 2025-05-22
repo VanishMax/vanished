@@ -6,20 +6,20 @@
 </script>
 
 <svelte:head>
-  <meta name="title" content="Max Korsunov's personal blog">
-  <meta name="description" content="The lover of the new. Here are my articles on front-end development topics.">
-  <meta name="keywords" content="Max Korsunov, vanishmax, developer, programmer, front-end, javascript, js, svelte, framework, blog, articles">
+  <meta name="title" content="Max Korsunov | vanished">
+  <meta name="description" content="Lover of the new. Front-end engineer with creative mind.">
+  <meta name="keywords" content="Max Korsunov, vanishmax, web3, crypto, startup, developer, engineer, programmer, front-end, frontend, javascript, typescript, js, reactjs, nextjs, html, css">
   <meta name="author" content="Max Korsunov">
 
   <meta property="og:type" content="website">
   <meta property="og:url" content="https://vanishmax.com/">
-  <meta property="og:title" content="Max Korsunov's personal blog">
-  <meta property="og:description" content="The lover of the new. Here are my articles on front-end development topics.">
+  <meta property="og:title" content="Max Korsunov | vanished">
+  <meta property="og:description" content="Lover of the new. Front-end engineer with creative mind.">
   <meta property="og:image" content="https://vanishmax.com/me1.jpg">
 
   <meta name="twitter:card" content="summary">
-  <meta name="twitter:title" content="Max Korsunov's personal blog">
-  <meta name="twitter:description" content="The lover of the new. Here are my articles on front-end development topics.">
+  <meta name="twitter:title" content="Max Korsunov | vanished">
+  <meta name="twitter:description" content="Lover of the new. Front-end engineer with creative mind.">
   <meta name="twitter:image" content="https://vanishmax.com/me1.jpg">
 </svelte:head>
 

@@ -19,8 +19,8 @@
     <a class="flex-center" href="https://t.me/vanishmax" target="_blank" rel="noreferrer nofollow">
       <img src="/telegram.png" alt="Telegram icon">
     </a>
-    <a class="flex-center" href="https://twitter.com/vanish_max" target="_blank" rel="noreferrer nofollow">
-      <img src="/twitter.png" alt="Twitter icon">
+    <a class="flex-center" href="https://x.com/vanish_max" target="_blank" rel="noreferrer nofollow">
+      <img src="/x.png" alt="Twitter icon">
     </a>
   </nav>
 </header>
