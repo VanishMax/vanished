@@ -1,24 +1,16 @@
-<script lang="ts">
-  export let isCV = false;
-</script>
-
 <header>
   <figure class="flex-center">
     <img src="/me.jpg" alt="me">
   </figure>
 
   <h3>Max Korsunov</h3>
-  <span>Bali, Indonesia</span>
-  <p>The lover of the new. Front-end engineer with creative mind.</p>
+  <span>Dubai, UAE</span>
+  <p>Lover of the new. Front-end engineer with creative mind.</p>
 
-  {#if isCV}
-    <a href="/" class="btn-link">See blog</a>
-  {:else}
-    <a href="/cv" class="btn-link">See the CV</a>
-  {/if}
+  <a href="/cv" class="btn-link">See the CV</a>
 
   <nav class="flex-center">
-    <a class="flex-center" href="mailto:max@vanishmax.com" target="_blank" rel="noreferrer nofollow">
+    <a class="flex-center" href="mailto:vanishmax2018@gmail.com" target="_blank" rel="noreferrer nofollow">
       <img src="/mail.png" alt="Email icon">
     </a>
     <a class="flex-center" href="https://github.com/VanishMax" target="_blank" rel="noreferrer nofollow">
@@ -35,23 +27,27 @@
 
 <style>
   header {
+    display: flex;
+    flex-direction: column;
     position: relative;
-    margin-top: 75px;
     border-radius: 30px;
     width: 350px;
-    padding: 100px 50px 40px;
+    margin-top: 75px;
+    padding: 75px 50px 40px;
     background: linear-gradient(145deg, #dfe1ec, #f8f8f8);
     box-shadow: 7px 7px 14px #c7c8cd, -7px -7px 14px #ffffff;
   }
 
   figure {
     position: absolute;
+    left: 50%;
     top: 0;
-    left: 50px;
     width: 150px;
     height: 150px;
+    align-self: center;
+    margin: 0;
     border-radius: 50%;
-    transform: translateY(-50%);
+    transform: translate(-50%, -50%);
     background: linear-gradient(145deg, #d9d9d9, #fafafa);
     box-shadow: inset 2px 2px 5px #c7c8cd, inset -3px -3px 6px #ffffff;
   }
@@ -96,30 +92,5 @@
   nav img {
     width: 30px;
     height: 30px;
-  }
-
-  @media screen and (max-width: 1023px) {
-    header {
-      margin: auto;
-    }
-  }
-
-  @media screen and (min-width: 1024px) and (max-width: 1439px) {
-    header {
-      min-width: 350px;
-      margin-left: 20px;
-    }
-
-    figure {
-      left: 30px;
-    }
-  }
-
-  @media screen and (min-width: 1440px) {
-    header {
-      min-width: 350px;
-      margin-left: 50px;
-      width: 350px;
-    }
   }
 </style>

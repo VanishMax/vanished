@@ -1,13 +1,8 @@
 <script lang="ts">
-  import { page } from '$app/stores';
-  import ProfileCard from '$lib/components/profile-card.svelte';
-
   import '@fontsource/montserrat/latin-400.css';
   import '@fontsource/montserrat/latin-400-italic.css';
   import '@fontsource/montserrat/latin-500.css';
   import '../styles.css';
-
-  $: isCV = $page.route.id === '/(public)/cv';
 </script>
 
 <svelte:head>
@@ -28,55 +23,31 @@
   <meta name="twitter:image" content="https://vanishmax.com/me.jpeg">
 </svelte:head>
 
-<section>
-  <div>
-    <ProfileCard {isCV} />
-  </div>
-  <main>
-    <a href="/">
-      <img src="/vanished.png" alt="vanished">
-    </a>
-    <slot />
-  </main>
-</section>
+<main>
+  <a href="/">
+    <img src="/vanished.png" alt="vanished">
+  </a>
+
+  <slot />
+</main>
 
 
 <style>
-  section {
-    display: flex;
-    justify-content: space-between;
-    flex-direction: column;
-    margin-top: 75px;
-  }
-
   main {
-    margin: 15px 20px 0;
-    width: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 32px;
+    margin: 32px 20px 0;
   }
 
   a {
-    display: none;
+    display: block;
     margin: auto;
     width: 96px;
   }
 
   img {
     width: 96px;
-  }
-
-  @media screen and (min-width: 1024px) {
-    section {
-      flex-direction: row;
-      margin-top: 0;
-    }
-
-    main {
-      margin: 15px 50px 0;
-      width: 100%;
-    }
-
-    a {
-      display: block;
-    }
   }
 </style>

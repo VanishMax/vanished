@@ -1,26 +1,26 @@
 <script>
   const projects = [
     {
+      title: 'Foton',
+      link: 'https://github.com/VanishMax/foton',
+      description: 'TypeScript toolkit for interacting with TON wallets and blockchain as a whole. The library wraps existing solutions into one comfortable API',
+      timing: 'May 2024',
+      stars: '50+',
+    },
+    {
       title: 'Vanilla JSX',
       link: 'https://github.com/VanishMax/vanilla-jsx',
       description: 'Proof-of-concept for using JSX in vanilla JavaScript apps, with articles explaining the idea',
       timing: 'Apr 2022',
-      stars: '5+',
+      stars: '15+',
     },
     {
       title: 'Magner',
       link: 'https://github.com/code-pilots/magner',
       description: 'Model-driven universal admin panel magnetic to any backend',
-      timing: 'Since May 2021',
-      stars: '10+',
+      timing: 'May – August 2021',
+      stars: '15+',
     },
-    {
-      title: 'Modern Web App',
-      link: 'https://github.com/VanishMax/modern-web-app',
-      description: 'React PWA with SSR and Code splitting. Has two articles in both <a href="https://medium.com/front-end-weekly/here-it-is-modern-web-app-651946efaa93" target="_blank">English</a> and <a href="https://habr.com/ru/post/432368/" target="_blank">Russian</a> languages of how to create a website with listed technologies from scratch.',
-      timing: 'Sep-Dec 2018',
-      stars: '45+'
-    }
   ];
 </script>
 
@@ -40,16 +40,16 @@
   {/each}
 </section>
 
-<p>Also, I wrote small web-applications in order to learn new technologies and improve my skills:</p>
-<ul>
-  <li>May 2021. <a href="https://github.com/IU-MAP/project-les-frais" target="_blank">"Les Frais" project</a>: a Vue 3 app to keep track of expenses.
-  <li>Nov 2020. Simple <a href="https://github.com/VanishMax/pizza-shop" target="_blank">"Pizza delivery service"</a>: a React app with authorization provided by serverless Node.js backend.
-  <li>Sep 2020. <a href="https://gitlab.com/GneyHabub/ds_project2" target="_blank">Distributed File System</a> as a University project. Node.js + TypeScript application for managing a nameserver, file servers and clients with no single point of failure.
-  <li>June 2019 – Jan 2020. Participated in a University project <a href="https://github.com/Innopoints/frontend" target="_blank">Innopoints</a> with other students. All-university website was created with Sapper, SSR library for Svelte.
-  <li>May 2020. Created a <a href="https://github.com/VanishMax/games-with-fullstack" target="_blank">small website</a> with Apline.js on the front-end and Express.js + MongoDB on the back-end.
-  <li>Nov 2019. Created the application for <a href="https://github.com/VanishMax/solving-de" target="_blank">solving differential equations</a> numerically and representing them with Chart.js.
-  <li>Apr 2019. Created an <a href="https://github.com/VanishMax/serverless-gallery" target="_blank">image gallery</a> with Vanilla JS and serverless file uploading using Amazon S3.
-</ul>
+<!--<p>Also, I wrote small web-applications in order to learn new technologies and improve my skills:</p>-->
+<!--<ul>-->
+<!--  <li>May 2021. <a href="https://github.com/IU-MAP/project-les-frais" target="_blank">"Les Frais" project</a>: a Vue 3 app to keep track of expenses.-->
+<!--  <li>Nov 2020. Simple <a href="https://github.com/VanishMax/pizza-shop" target="_blank">"Pizza delivery service"</a>: a React app with authorization provided by serverless Node.js backend.-->
+<!--  <li>Sep 2020. <a href="https://gitlab.com/GneyHabub/ds_project2" target="_blank">Distributed File System</a> as a University project. Node.js + TypeScript application for managing a nameserver, file servers and clients with no single point of failure.-->
+<!--  <li>June 2019 – Jan 2020. Participated in a University project <a href="https://github.com/Innopoints/frontend" target="_blank">Innopoints</a> with other students. All-university website was created with Sapper, SSR library for Svelte.-->
+<!--  <li>May 2020. Created a <a href="https://github.com/VanishMax/games-with-fullstack" target="_blank">small website</a> with Apline.js on the front-end and Express.js + MongoDB on the back-end.-->
+<!--  <li>Nov 2019. Created the application for <a href="https://github.com/VanishMax/solving-de" target="_blank">solving differential equations</a> numerically and representing them with Chart.js.-->
+<!--  <li>Apr 2019. Created an <a href="https://github.com/VanishMax/serverless-gallery" target="_blank">image gallery</a> with Vanilla JS and serverless file uploading using Amazon S3.-->
+<!--</ul>-->
 
 <style>
   section {
@@ -57,6 +57,7 @@
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
+    width: 100%;
   }
 
   section > div {
@@ -101,10 +102,6 @@
   }
 
   @media screen and (min-width: 1024px) {
-    section, p, li {
-      width: 70%;
-    }
-
     section p {
       width: 100%;
     }

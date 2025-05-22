@@ -1,56 +1,66 @@
 <script>
   const timeline = [
     {
+      title: 'Penumbra Labs',
+      link: 'https://penumbra.zone/',
+      timing: 'June 2024 – Present',
+      img: 'penumbra.svg',
+      description: [
+        'Created the TypeScript library for communicating with crypto wallet browser extension from dApps',
+        'Maintained and added new features to the <a href="https://praxwallet.com/" target="_blank" rel="noreferrer nofollow">Prax browser extension</>',
+        'Learned Rust and contributed to the core Penumbra blockchain using this knowledge',
+        'Delivered the first MVP of a <a href="https://veil.penumbra.zone/" target="_blank" rel="noreferrer nofollow">fully-private DEX</a> for Penumbra blockchain',
+      ],
+    },
+    {
       title: 'Inita',
       link: 'https://inita.com/',
-      timing: 'Since October 2022. Luxembourg',
+      timing: 'Oct 2022 – May 2024',
       img: 'inita.svg',
       description: [
-        'Developing high-quality product and moving the startup forward',
+        'Moved the large code base to monorepo structure enhancing developer experience and reducing build time by 37%',
+        'Streamlined the processes, reducing feature delivery time by 2 days through enhanced code review, documentation and structured communication',
+        'Saved at least 4 hours per week per team member by replacing manual work with AI scripts',
+        'Pioneered with 2 new features that enhanced user engagement and retention and drew new users to the app',
+      ],
+    },
+    {
+      title: 'Spin',
+      link: 'https://spin.fi/',
+      timing: 'May 2022 – Oct 2022',
+      img: 'spin.svg',
+      description: [
+        'Designed the architecture for the spot trading platform with high frequency in mind',
+        'Created a multi-wallet support while refactoring the code base from the ground up',
+        'Established the company-wide practices of calculating DeFi fees',
       ],
     },
     {
       title: 'Code Pilots',
       link: 'https://code-pilots.com/',
-      timing: 'Nov 2020 – Oct 2020. Almaty, Kazakhstan',
+      timing: 'Nov 2020 – May 2022',
       img: 'codepilots.svg',
       description: [
-        'Developed several high-load projects',
-        'Created a tool to optimize admin dashboard creation',
-        'Developed the starter code template for all future projects',
-        'Acted as an interviewer and mentor for newcomers',
+        'Created a TypeScript library for bootstrapping admin panels creation 3 times faster than before',
+        'Mentored and managed a team of software engineers working on 5+ products simultaneously',
+        'Contributed to key open-source projects influencing company software',
       ],
     },
     {
       title: 'Fixtender',
       link: 'https://fixtender.com',
-      timing: 'Jun 2019 – Nov 2020. Riga, Latvia',
+      timing: 'Nov 2018 – Nov 2020',
       img: 'fixtender.svg',
       description: [
-        'Finished several projects for <strong>industrial customers</strong> from scratch',
-        'Applied modern technologies on every project such as <strong>SSR</strong> for public websites or <strong>TypeScript</strong> for difficult applications',
-        'Contributed to <strong>Open-Source</strong> in order to solve the job\'s tasks',
-        'Performed <strong>unit</strong> and <strong>end-to-end tests</strong> to ensure reliability',
-        'Was a mentor for new interns and performed <strong>code-review</strong>',
-        'Wrote technical documentation for all web applications',
-        'Communicated with project team up to customers to ensure the understanding of business requirements',
-      ],
-    },
-    {
-      title: 'Eratart development',
-      link: 'https://eratart.com/',
-      timing: 'Dec 2018 — March 2019',
-      img: 'eratart.png',
-      description: [
-        'Built <strong>REST API with Node.js</strong>',
-        'Integrated Google services into the project',
-        'Created an interface of the admin\'s dashboard of the project with <strong>React</strong>'
+        'Led the product development from the initial idea till acceptance to the Alchemist start-up accelerator',
+        'Mentored new interns and performed code-review',
+        'Wrote technical documentation for the web application',
       ],
     },
   ];
 </script>
 
-<h2 class="experience">Job experience <small>over 4 years</small></h2>
+<h2 class="experience">Job experience <small>over 6 years</small></h2>
 
 <section>
   {#each timeline as item, i}
@@ -80,6 +90,7 @@
     align-items: center;
     justify-content: space-between;
     margin-bottom: 2rem;
+    width: 100%;
   }
 
   .experience > small {
@@ -140,10 +151,6 @@
   }
 
   @media screen and (min-width: 1024px) {
-    .experience {
-      width: 70%;
-    }
-
     div {
       width: 50%;
       margin-left: 50%;
@@ -168,12 +175,6 @@
     div:nth-child(2n+1):before, div:nth-child(2n+1):after {
       right: 0;
       left: auto;
-    }
-  }
-
-  @media screen and (min-width: 1220px) {
-    section {
-      width: 700px;
     }
   }
 </style>

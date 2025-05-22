@@ -27,10 +27,4 @@
     line-height: 1.6;
     text-align: justify;
   }
-
-  @media screen and (min-width: 1024px) {
-    section {
-      width: 70%;
-    }
-  }
 </style>

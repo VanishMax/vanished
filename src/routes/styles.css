@@ -28,7 +28,7 @@ document, window, body {
   display: inline-block;
   margin-top: 10px;
   margin-bottom: 30px;
-  width: auto;
+  width: max-content;
   text-decoration: none;
   background-color: #e9eaf2;
   color: #424567;

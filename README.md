@@ -1,3 +1,3 @@
 # [Vanished](https://vanishmax.com)
 
-My personal blog built with Sapper in Neumorphic design.
+My personal website and a CV built with SvelteKit in Neumorphic design.
