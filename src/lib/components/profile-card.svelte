@@ -5,7 +5,7 @@
 
   <h3>Max Korsunov</h3>
   <span>Dubai, UAE</span>
-  <p>Lover of the new. Front-end engineer with creative mind.</p>
+  <p>Lover of the new. Web3 full stack engineer with creative mind.</p>
 
   <a href="/cv" class="btn-link">See the CV</a>
 
@@ -22,6 +22,9 @@
     <a class="flex-center" href="https://x.com/vanish_max" target="_blank" rel="noreferrer nofollow">
       <img src="/x.png" alt="Twitter icon">
     </a>
+    <a class="flex-center" href="https://linkedin.com/in/vanishmax/" target="_blank" rel="noreferrer nofollow">
+      <img src="/in.png" alt="LinkedIn icon">
+    </a>
   </nav>
 </header>
 
@@ -31,7 +34,7 @@
     flex-direction: column;
     position: relative;
     border-radius: 30px;
-    width: 350px;
+    width: 375px;
     margin-top: 75px;
     padding: 75px 50px 40px;
     background: linear-gradient(145deg, #dfe1ec, #f8f8f8);
